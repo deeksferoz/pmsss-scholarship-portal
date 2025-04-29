@@ -1,0 +1,41 @@
+.document-upload-container {
+  padding: 2rem;
+  background: #f9f9f9;
+  display: flex;
+  justify-content: center;
+}
+.document-upload-form {
+  background: white;
+  padding: 2rem;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+.error-message {
+  color: red;
+  font-size: 0.85rem;
+}
+.ocr-preview {
+  margin-top: 2rem;
+  background: #eef;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.primary-button, .secondary-button {
+  margin-right: 10px;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.primary-button {
+  background-color: #1976d2;
+  color: white;
+}
+.secondary-button {
+  background-color: #ccc;
+}

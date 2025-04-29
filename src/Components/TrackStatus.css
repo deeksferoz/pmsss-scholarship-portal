@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Centered container for the status message */
+  .track-status-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Styling for the loading message */
+  .loading-message {
+    font-size: 20px;
+    color: #555;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+  
+  /* Styling for the success message (verified documents) */
+  .success-message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin-top: 50px;
+  }
+  
+  .success-message h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .success-message p {
+    font-size: 1.1rem;
+  }
+  
+  /* Styling for the in-progress message (verification pending) */
+  .pending-message {
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin-top: 50px;
+  }
+  
+  .pending-message h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .pending-message p {
+    font-size: 1.1rem;
+  }
+  
+  /* Styling for the text */
+  h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.1rem;
+  }
+  
+  /* Add spacing between elements */
+  h2, p {
+    margin: 10px 0;
+  }
+  
+  /* Animation for the refresh effect */
+  @keyframes refreshing {
+    0% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.5;
+    }
+  }
+  
+  .refreshing-icon {
+    animation: refreshing 1.5s infinite ease-in-out;
+  }
+  

@@ -1,0 +1,124 @@
+.homepage-container {
+  font-family: 'Segoe UI', sans-serif;
+  background: white;
+  color: #333;
+  padding: 20px;
+}
+
+.hero-section {
+  text-align: center;
+  background: #4c00b4;
+  color: white;
+  padding: 60px 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.hero-section h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero-section p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.cta-buttons .btn {
+  padding: 12px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  margin: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* spacing between buttons */
+}
+.cta-buttons {
+  display: flex;
+  flex-direction: column; /* Stack vertically */
+  align-items: center;     /* Center horizontally */
+  gap: 10px;               /* Space between buttons */
+  margin-top: 20px;
+}
+.cta-buttons1 {
+  display: flex;
+  width:80px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px; /* Align to the left */
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.btn.primary {
+  background-color: #fff;
+  color: #4c00b4;
+  font-weight: bold;
+}
+
+.btn.secondary {
+  background-color: #4c00b4;
+  color: #fff;
+  border: 2px solid white;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.features-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.feature-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 240px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-size: 18px;
+}
+
+.about-section, .updates-section {
+  background: white;
+  padding: 30px;
+  margin: 30px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.about-section p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.updates-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.updates-section li {
+  padding: 8px 0;
+  font-size: 16px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #555;
+}

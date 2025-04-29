@@ -1,0 +1,30 @@
+.verify-documents {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard-header {
+    background-color: #282c34;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .ocr-upload input {
+    margin: 10px 0;
+  }
+  
+  .ocr-output {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ocr-output pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 14px;
+  }
+  
